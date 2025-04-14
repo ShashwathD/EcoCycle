@@ -107,7 +107,7 @@ struct UpcycleView: View {
     }
 
     func callGeminiAPI(prompt: String) async -> String? {
-        let endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyARn6CiuuHSFXSRSk-qtEn2L-7uDbI2Ibc"
+        let endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=API-KEY"
 
         let requestPayload: [String: Any] = [
             "contents": [
